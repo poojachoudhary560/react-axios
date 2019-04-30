@@ -10,6 +10,7 @@ const UserForm = props => {
         className="UserForm-input form-control"
         type="text"
         name="username"
+        required
       />
       <button className="btn btn-primary">Submit</button>
       <br />

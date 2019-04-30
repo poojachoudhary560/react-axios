@@ -76,7 +76,7 @@ class App extends Component {
               </div>
             </Fragment>
           ) : (
-            <p> Please enter a username</p>
+            <br />
           )}
         </div>
       </div>
