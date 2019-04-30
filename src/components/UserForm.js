@@ -1,9 +1,18 @@
 import React from "react";
-const UserForm = () => {
+import "./UserForm.css";
+const UserForm = props => {
   return (
-    <form>
-      <input type="text" name="username" />
-      <button>Submit</button>
+    <form onSubmit={props.getUser}>
+      <label for="username" className="UserForm-label">
+        Enter any GitHub username to view user details e.g. john
+      </label>
+      <input
+        className="UserForm-input form-control"
+        type="text"
+        name="username"
+      />
+      <button className="btn btn-primary">Submit</button>
+      <br />
     </form>
   );
 };

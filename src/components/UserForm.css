@@ -1,0 +1,10 @@
+.UserForm-label {
+  padding-top: 20px;
+}
+.UserForm-input {
+  margin: 20px auto;
+  display: block;
+}
+.form-control {
+  width: 50%;
+}
